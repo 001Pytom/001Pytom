@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow: ; */
+}
+main {
+  /* width: 50%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.first {
+  /* width: 50%; */
+  background-color: white;
+  padding: 20px;
+}
+.second {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  background-color: rgb(45, 135, 145);
+  width: 50%;
+  padding: 20px;
+  color: white;
+}
+.Right {
+  background-color: rgb(37, 218, 218);
+  width: 50%;
+  padding: 20px;
+  color: white;
+}
+.second button {
+  border: 2px solid rgb(205, 147, 105);
+  background-color: rgb(205, 147, 105);
+  width: 10em;
+  padding: 7px;
+  color: white;
+  margin-left: 20%;
+  border-radius: 3px 3px;
+}

@@ -1,0 +1,20 @@
+#imag {
+  /* background-image: url(fc.png); */
+  /* background-repeat: ; */
+  background-repeat: round; 
+  background-attachment: fixed;
+   background-size:cover;
+   
+}
+#font {
+  font-size: 50px;
+  /* font-family: ; */
+  font-display: swap;
+  
+  
+}
+#container{
+    margin-top: 50px;
+    margin-left: 500px;
+    
+}

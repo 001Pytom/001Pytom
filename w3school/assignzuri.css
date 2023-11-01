@@ -1,0 +1,82 @@
+/* @import url("https://fonts.google.com/specimen/Big+Shoulders+Display:wght@700display=swap"); */
+
+@media only screen and (max-width:414px) {
+  .all {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 100vh;
+    margin-top: 150%;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.all h1 {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+  background-color: white;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+
+}
+main {
+  display: flex; 
+  flex-direction: row;
+  justify-content: center ;
+  align-items: center;
+  height: 100vh;
+   
+  
+}
+.all {
+  width: 60%;
+  display: flex;
+}
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+p {
+  padding: 5px;
+  padding-left: 0;
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding: 40px;
+  color: white;
+  font-weight: 400;
+}
+
+
+button {
+  margin-top: 50px;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 40px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border: 2px solid hsl(0, 0%, 95%);
+  height: 20px;
+  width: 60%;
+
+}
+.suv {
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px;
+  color: white;
+  font-weight: 400;
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  padding: 40px;
+  color: white;
+  font-weight: 400;
+}

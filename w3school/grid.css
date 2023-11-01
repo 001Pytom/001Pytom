@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  place-content: center;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-areas:
+    "sed suv lux"
+    "sed suv lux";
+  width: 60%;
+  margin: auto;
+}
+
+.sedans {
+  grid-area: sed;
+  background-color: hsl(31, 77%, 52%);
+  padding: 40px;
+  color: white;
+  font-weight: 400;
+}
+.suv {
+  grid-area: suv;
+  background-color: hsl(184, 100%, 22%);
+  padding: 40px;
+  color: white;
+  font-weight: 400;
+}
+.luxury {
+  grid-area: lux;
+  background-color: hsl(179, 100%, 13%);
+  padding: 40px;
+  color: white;
+  font-weight: 400;
+}
+h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+p {
+  padding: 5px;
+  padding-left: 0;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  padding: 40px;
+  color: white;
+  font-weight: 400;
+}
+
+button {
+  margin-top: 50px;
+  padding: 10px;
+  padding-bottom: 30px;
+  border-radius: 40px;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border: 2px solid hsl(0, 0%, 95%);
+  height: 20px;
+}

@@ -1,0 +1,50 @@
+#header h1 {
+  color: white;
+}
+body {
+  /* background-color: black; */
+  /* color: white; */
+  /* background-image: url("hills.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+}
+/* background shorthand property */
+/* body{
+    background: black url('hills.jpg') no-repeat fixed;
+    background-size: cover;
+} */
+/* .laptop {
+    text-align: center;
+    font-style: italic;
+    font-weight: 600;
+    color: chartreuse;
+    background-color: burlywood;
+    width: 50%;
+    height: auto;
+} */
+
+/* border */
+#border {
+  /* border-style: solid;
+    border-width: 3px;
+    border-color: blue; */
+  /* width: 200px;
+    height: 200px; */
+}
+
+/* border shorthand property: border-width border-style border-color */
+/* #border{
+     border: 3px solid blue;
+     width: 200px;
+     height: 200px;
+} */
+
+#border{
+    border-bottom: 3px solid blue;
+    width: 200px;
+    height: 200px;
+}
+
+
+/* border-radius or rounded  corners*/

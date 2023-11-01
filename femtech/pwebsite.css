@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    user-select: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffff;
+    height: 60px;
+    /* box-shadow: 0 0 0 2px black; */
+    box-shadow: 0 0 10px 2px rgb(98, 92, 92);  
+    padding: 5px;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+
+}
+
+
+.nav-item{
+    display: flex;
+    padding-right: 20px;
+}
+
+a:hover {
+    color: #2121f2;
+}
+
+a:active {
+    color: #0000;
+  
+}
+
+li {
+    padding-left: 23px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}   
+
+
+img {
+    text-align: center;
+    max-width: 500x;
+    height: 500px;
+    border-radius: 50%;
+    padding-top: 1rem;
+}
+
+.img {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.abt {
+    width: 25rem;
+    text-align: center;
+}
+
+.text {
+    /* text-align: center; */
+    padding: 1rem;
+
+}
+main {
+    background-color: #f7f7f7;
+    height: 100;
+    width: 100;
+}
+ 
+/* main{
+    border: 5px solid white;
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: white;
+    box-shadow: 0 0 10px 2px rgb(212, 179, 179);  
+    
+} */
+
+/* large screen */
+@media screen and (max-width: 780px) {
+    
+}
+
+/* medium screen */
+@media screen and (max-width: 780px) {
+    
+    .nav-item {
+        display: none;
+    }
+}
+
+/* small screen */
+@media screen and (max-width: 580px) {
+    header {
+        height: 90px;
+    }
+
+    img {
+        width: 90%;
+        height: 100;
+    }
+
+    .img {
+        /* padding-top: 5rem; */
+        text-align: center;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .main{
+        width: 100%;
+      
+    }
+/*     
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar li{
+        position: relative;
+        left: 0;
+    }
+    #pic{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+    } */
+    
+}
+
+
+
+
+/* }
+#text{
+
+    border: none;
+    width: 70%;
+    /* height: 100%; */
+    /* position: absolute;
+    top: 100px;
+    padding-left: 10%;
+    font-size: 50px;
+    text-align: left; */
+    /* text-shadow: 2px 2px rgb(212, 179, 179) ; */
+    /* font-weight:normal;
+    font-style: oblique; */
+/*     
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    /* position: fixed; */
+    /* top: 0; */
+    /* height: 300px; */
+
+/* .navbar li{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    position: relative;
+    left: 30%;
+    font-size: large;
+    margin-top: 0;
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    position: static;
+}
+.navbar li a:hover{
+    color: black;
+    border: none;
+    padding: 15px;
+    padding-bottom: 0;
+    border-radius: 10%;
+    border-bottom: 1px solid rgb(212, 179, 179);
+    
+}
+.nav-item li h3{
+    padding-left: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+.navbar li h3:hover{
+    color: rgb(212, 179, 179);
+    transition: 1s;
+} */ 
+
+/* 
+
+#pic{
+    /* border: 3px solid green; */
+    /* position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+#pic img{
+    position: relative;
+    max-width: 30%; 
+    border-radius: 0% 0% 0% 50%;
+    left: 50%;
+    box-shadow: 0 1px 5px 1px;
+    position: relative;
+}
+#pic h3{
+    position: relative;
+    text-align: end;
+    right: 25%;
+    top: 25px;
+    font-size: 30px;
+}
+#pic p{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    /* height: 300px;
+    font-style: oblique;
+    font-size: larger;
+    text-align: center;
+    width: 50%; */
+    /* padding: 20px;
+    text-align: justify;
+    position: absolute;
+    top: 300px;
+    left: 40%; */ 
+
+/* } */ 
+/* #text{
+    border: 2px solid red;
+    position: absolute;
+    top: 70%;
+} */
+
+
+/* .box{
+    /* border: 1px solid red; */
+    /* display: flex;
+    position: relative;
+    top: 300px;
+    height: 500px;
+    max-width: 500px;
+    text-align: justify;
+    font-size: x-large;
+    padding: 50px;
+
+    } */
+    
+/* :link
+:hover
+:active
+:visited */

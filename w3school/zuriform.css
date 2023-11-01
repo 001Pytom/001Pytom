@@ -1,0 +1,31 @@
+* {
+  margin-top: 5px;
+}
+
+h4 {
+  font-size: xx-large;
+  padding-left: 42%;
+}
+form {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+}
+.but {
+  padding-left: 50px;
+}
+.but {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 50px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-left: 50px;
+  font-style: italic;
+}
+.but:hover {
+  font-size: large;
+  width: 55px;
+}
