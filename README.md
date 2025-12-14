@@ -1,16 +1,22 @@
-## Hi there 👋
+## Hi, I’m Faatihat 👋
 
-<!--
-**001Pytom/001Pytom** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Frontend Engineer building scalable, user-focused web applications.
+I enjoy turning complex ideas into clean, maintainable interfaces.
 
-Here are some ideas to get you started:
+### 🛠 Tech Stack
+- JavaScript, TypeScript
+- React, Next.js
+- Node.js, NestJS
+- Supabase, REST APIs
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 What I’m Working On
+- Production web applications
+- Design systems & reusable UI components
+- API-driven frontend architectures
+
+### 🌱 Currently Learning
+- Advanced frontend architecture
+- intro to backend
+- Performance optimization
+- AI-powered product integration
+
