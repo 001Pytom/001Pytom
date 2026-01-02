@@ -1,7 +1,9 @@
 ## Hi, I’m Faatihat 👋
 
+## Frontend Engineer for SaaS and Startups.
 Frontend Engineer building scalable, user-focused web applications.
 I enjoy turning complex ideas into clean, maintainable interfaces.
+
 
 ### 👯 I’m looking to collaborate on awesome projects
 
